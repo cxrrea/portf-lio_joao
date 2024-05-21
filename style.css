@@ -216,7 +216,7 @@ section .header{
 }
 
 .sub-header{
-    max-width: 600px;
+    max-width: 900px;
     margin: auto;
     text-align: center;
     color: #ccc;
