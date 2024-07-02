@@ -9,11 +9,8 @@
 - REACT JS
 - PYTHON
 - FLASK
-<<<<<<< HEAD
 - BOOTSTRAP
-=======
 - API REST
->>>>>>> c252de9783d4fcaffc410ae2d1a9e3fdd56ddcad
 
 ### Contatos:
 
