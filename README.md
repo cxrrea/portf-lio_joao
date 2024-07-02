@@ -2,15 +2,18 @@
 
 ## Aqui você pode me conhecer um pouco melhor e descobrir um pouco dos meus projetos e trabalhos🙋‍♂️
 
-### Tecnologias⚙️ :
+### Tecnologias e Conhecimentos⚙️ :
 - HTML
 - CSS
 - JAVASCRIPT
-- NODE
 - REACT JS
 - PYTHON
 - FLASK
+<<<<<<< HEAD
 - BOOTSTRAP
+=======
+- API REST
+>>>>>>> c252de9783d4fcaffc410ae2d1a9e3fdd56ddcad
 
 ### Contatos:
 
