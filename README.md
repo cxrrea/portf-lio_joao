@@ -10,6 +10,7 @@
 - REACT JS
 - PYTHON
 - FLASK
+- BOOTSTRAP
 
 ### Contatos:
 

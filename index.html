@@ -11,107 +11,129 @@
 
     <nav>
         <div class="nav-logo">
-            <a href="">
-                <img src="images/logo_dev_joao-removebg-preview.png">
+            <a href="#">
+                <img src="images/logo_dev_joao-removebg-preview.png" alt="Logo">
             </a>
         </div>
-
+    
         <ul class="nav-links">
-            <li class="link"><a href="#">Início</a></li>
-            <li id="link1" class="link"><a href="#">Projetos</a></li>
-            <li id="link2" class="link"><a href="#">Sobre mim</a></li>
-            <li id="link3" class="link"><a href="#">Social</a></li>
+            <li class="link"><a href="#techs">Tecnologias</a></li>
+            <li id="link1" class="link"><a href="#projetos">Projetos</a></li>
+            <li id="link2" class="link"><a href="#sobre">Sobre mim</a></li>
+            <li id="link3" class="link"><a href="#social">Social</a></li>
         </ul>
-        <button id="btn1" class="btn">Contatos</button>
+        <a href="https://api.whatsapp.com/send/?phone=19998429135&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
+            <button class="btn">Fale comigo</button>
+        </a>
     </nav>
-
-    <header class="container">
+    
+    <header id="inicio" class="container">
         <div class="content">
             <span class="blur"></span>
             <span class="blur"></span>
-            <H1>Olá, me chamo <span>João</span></H1>
+            <h1>Olá, me chamo <span>João</span></h1>
             <p>
-               Seja muito bem-vindo ao meu portfolio! Você pode me conhecer melhor por aqui e caso desejar, entre em contato clicando no botão abaixo.
+                Seja muito bem-vindo ao meu portfolio! Você pode me conhecer melhor por aqui e caso desejar, entre em contato clicando no botão "Fale comigo".
             </p>
-            <a href="https://api.whatsapp.com/send/?phone=19998429135&text&type=phone_number&app_absent=0"><button class="btn">Fale comigo</button></a>
         </div>
         <div class="image">
-            <img src="images/WhatsApp Image 2024-05-12 at 23.38.49.jpeg">
+            <img src='https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortCurly&accessoriesType=Blank&hairColor=Brown&facialHairType=Blank&clotheType=Hoodie&clotheColor=Purple&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Light' alt="Avatar">
         </div>
     </header>
 
-    <section class="container">
+    <section id="techs" class="container">
+        <h1 class="header">TECNOLOGIAS</h1>
+        <div class="grid-techs">
+
+        <div class="techs">
+        <img src="images/htmllogo-removebg-preview.png" alt="">
+        </div>
+
+        <div class="techs">
+            <img src="images/logo-2582747_1280.png" alt="">
+        </div>
+
+        <div class="techs">
+            <img src="images/jslogo-removebg-preview.png" alt="">
+        </div>
+
+        <div class="techs">
+            <img src="images/reactjs-inner.png" alt="">
+        </div>
+
+        <div class="techs">
+            <img src="images/raf_360x360_075_t_fafafa_ca443f4786-removebg-preview.png" alt="">
+        </div>
+
+        <div class="techs">
+            <img src="images/289-2896071_python-logo-png-165709.png" alt="">
+        </div>
+    </div>   
+        
+    </section>
+    
+    <section id="projetos" class="container">
         <h2 class="header">MEUS PROJETOS</h2>
         <div class="features">
             <div class="card">
-                <span><i class="ri-money-dollar-box-line"></i></span>
-                <h4>Org. Chamados</h4>
+                <span><i class="task-manag"></i></span>
+                <h4>Ger. Tarefas</h4>
                 <p>
                     Projeto desenvolvido para registrar e gerenciar os chamados atendidos no suporte.
                 </p>
-                <a href="#">Ver mais <i class="ri-arrow-right-line"></i></a>
+                <a href="https://taskmanag.vercel.app/" target="_blank" rel="noopener noreferrer">Ver mais <i class="ri-arrow-right-line"></i></a>
             </div>
             <div class="card">
                 <span><i class="ri-bug-line"></i></span>
-                <h4>Crud</h4>
+                <h4>Busca Cep</h4>
                 <p>
-                    You have any problem in your codes? Tell me, i will help you fix it.
+                    Projeto criado para pesquisar CEP's consumindo dados da API "ViaCep"
                 </p>
-                <a href="#">Ver mais <i class="ri-arrow-right-line"></i></a>
+                <a href="https://searchlocation-iuz5x56s6-joaos-projects-b89c45f2.vercel.app/" target="_blank">Ver mais <i class="ri-arrow-right-line"></i></a>
             </div>
             <div class="card">
                 <span><i class="ri-history-line"></i></span>
-                <h4>Automat. Python</h4>
+                <h4>App Barbearia</h4>
                 <p>
-                    We have video each 4 days, So check channel every 4 days to watch it!
+                    Em desenvolvimento... <i class="bi bi-hammer"></i>
                 </p>
-                <a href="#">Ver mais <i class="ri-arrow-right-line"></i></a>
+                <a href="#">Disponível em breve<i class="ri-arrow-right-line"></i></a>
             </div>
             <div class="card">
                 <span><i class="ri-shake-hands-line"></i></span>
-                <h4>Game</h4>
+                <h4>Plataforma de Aulas</h4>
                 <p>
-                    You want we worrk together? Write email to us, we will read it.
-                </p>
-                <a href="#">Ver mais <i class="ri-arrow-right-line"></i></a>
+                    Em desenvolvimento... <i class="bi bi-hammer"></i>
+                </p>    
+                <a href="">Disponível em breve <i class="ri-arrow-right-line"></i></a>
             </div>
         </div>
     </section>
-
-    <section class="container">
+    
+    <section id="sobre" class="container">
         <h2 class="header">SOBRE MIM</h2>
         <p class="sub-header">
-          Quando criança, dei meus primeiros passos no mundo da tecnologia para criação de websites, explorando o HTML/CSS. 
-          Essa jornada começou antes mesmo do grande boom da programação! Influenciado por meu pai e meu tio, passava horas em frente à tela, deixando minha 
-          criatividade fluir enquanto criava blogs e sites com minha própria identidade. 
-          À medida que entrei na adolescência, percebi que minha paixão de infância poderia se tornar uma ferramenta 
-          valiosa para o meu futuro. Comecei então a me aprofundar no assunto, dedicando-me a pesquisas e estudos mais intensos.
-           Foi assim que acabei descobrindo os vídeos do renomado mestre Guanabara, um ponto de partida para muitos nesta área. 
-           Agora, convido você a explorar alguns dos meus projetos disponíveis aqui!
-        </p>                 
-            </div>
-        </div>
+            Desde a infância, meu interesse pela tecnologia e desenvolvimento começou antes mesmo do "boom!" da programação. Influenciado por meu pai e meu tio, passei horas criando blogs e sites únicos. Na adolescência, percebi o potencial dessa paixão e me aprofundei nos estudos. Encontrei os vídeos do mestre Guanabara, que foram fundamentais para meu desenvolvimento na área. Convido você a explorar meus projetos por aqui!
+        </p>
     </section>
-
-    <footer  class="contacts" id="btn1">
-        <h1 class="header">CONTATOS</h1>
-        <ul>
-            <li class="links"><a href="https://api.whatsapp.com/send/?phone=19998429135&text&type=phone_number&app_absent=0"><i class="bi bi-whatsapp"></i> WhatsApp</a></li>
-            <li class="links"><a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-ferreira-corr%C3%AAa-0aa33b232/"><i class="bi bi-linkedin"></i> LinkedIn</a></li>
-            <li class="links"><a href="#"><i class="bi bi-phone"></i> Telefone</a></li>
-            <li class="links"><a href="https://www.instagram.com/cxrrea.jc/"><i class="bi bi-instagram"></i> Instagram</a></li>
-        </ul>
-    </footer>
     
-
-
-
+    <footer id="social" class="foot">
+        <h1 class="header">SOCIAL</h1>
+        <ul>
+            <li class="links"><a href="https://api.whatsapp.com/send/?phone=19998429135&text&type=phone_number&app_absent=0" target="_blank"><i class="bi bi-whatsapp"></i> WhatsApp</a></li>
+            <li class="links"><a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-ferreira-corr%C3%AAa-0aa33b232/" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a></li>
+            <li class="links"><a href="https://www.instagram.com/cxrrea.jc/" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></li>
+            <li class="links"><a href="https://github.com/cxrrea" target="_blank"><i class="bi bi-github"></i> Github</a></li>
+        </ul>
+    
+    
     <div class="copyright">
         Copyright © 2024 João Correa. Todos direitos reservados.
     </div>
 
-
+    </footer>
+    
     <script src="script.js"></script>
-</body>
-
+    
+    </body>
 </html>
