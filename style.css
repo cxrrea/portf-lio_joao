@@ -296,46 +296,121 @@
             width: 20px;
         }
 
-        @media (max-width: 900px) {
+        @media (max-width: 768px) {
+            /* Navbar */
+            nav {
+                flex-direction: column;
+                align-items: stretch;
+                height: auto;
+                padding: 10px;
+                gap: 10px;
+            }
+
+            .nav-logo img{
+                margin-left: -15px;
+
+            }
+        
             .nav-links {
-                display: none;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+                display: none; /* Esconder links do menu principal */
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background-color: #27272a;
+                padding: 10px;
             }
-
+        
+            .nav-links.active {
+                display: flex;
+            }
+        
+            .nav-links .link {
+                text-align: center;
+            }
+        
+            .btn {
+                margin-top: 10px;
+                width: 50%;
+            }
+        
+            /* Header */
             header {
-                grid-template-columns: repeat(1, 1fr);
+                display: flex;
+                text-align: center;
+                justify-content: center;
             }
-
-            header .image {
-                grid-area: 1/1/2/2;
+        
+            header .content h1 {
+                font-size: 2.5rem;
+                margin-left: 3rem;
             }
-
-            .features {
-                grid-template-columns: repeat(2, 1fr);
+        
+            header .content p {
+                margin-left: 3rem;
             }
-
-            .pricing {
-                grid-template-columns: repeat(2, 1fr);
-            }
-
-            footer {
-                grid-template-columns: 1fr 200px;
-            }
-        }
-
-        @media (max-width: 600px) {
-            header .image::before {
+        
+            header .image img {
                 display: none;
             }
+        
+            /* Sections */
+            .section {
+                padding: 20px;
+            }
+        
+            section .techs{
+                margin-top: 4rem;
+                display: grid;
+                grid-template-columns: repeat(2, 2fr);
+                gap: 2rem;
+            }
+    
+            section .grid-techs{
+                margin-top: 1rem;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 2rem;
+                max-width: 0.2rem;
+                margin-left: 5.7rem;
+            }
 
+            section .grid-techs .techs img{
+                width: 7rem;
+            }
+    
+        
             .features {
                 grid-template-columns: repeat(1, 1fr);
+                gap: 20px;
+                margin-left: 2rem;
+            }
+        
+            .features .card {
+                padding: 20px;
+                width: 25rem;
             }
 
-            .pricing {
-                grid-template-columns: repeat(1, 1fr);
-            }
+           .sub p{
+            width: 26rem;
+            display: flex;
+            margin-left: 2rem;
+            
+           }
 
+
+          
+        
+            /* Footer */
             footer {
-                grid-template-columns: 1fr 150px;
+                padding: 20px;
+            }
+        
+            footer ul {
+                gap: 15px;
             }
         }
+        
